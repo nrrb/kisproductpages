@@ -15,3 +15,8 @@ sips -c 400 500 image.jpg --out image2.jpg
 # Pad an image so it's 500 pixels wide and 400 pixels tall, padding with white
 
 sips --padToHeightWidth 400 500 --padColor FFFFFF image.jpg --out image2.jpg
+
+# Make changes to all files in a folder
+
+mkdir output
+for i in *.jpg; do sips -Z 750 $i --out output/$i.jpg; done
