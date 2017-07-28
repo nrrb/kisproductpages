@@ -1,4 +1,4 @@
-In OS X Terminal, image resizing and conversion can be done with the "sips" command:
+# In OS X Terminal, image resizing and conversion can be done with the "sips" command:
 
 # Convert an image from PNG to JPEG:
 
@@ -20,3 +20,7 @@ sips --padToHeightWidth 400 500 --padColor FFFFFF image.jpg --out image2.jpg
 
 mkdir output
 for i in *.jpg; do sips -Z 750 $i --out output/$i.jpg; done
+
+# To pad an image just on the top with 100 pixels of white space, using imagemagick
+
+convert source.jpg -splice 0x100 out.jpg
