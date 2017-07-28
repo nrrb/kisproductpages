@@ -254,18 +254,63 @@
         <div class="row">
             
             <div class="col-lg-12">
-                <h3 class="page-header">Ordering / Consulting - UNDER CONSTRUCTION</h3>
+                <h3 class="page-header">Ordering / Consulting</h3>
             </div>
             
             <div class="col-lg-12"> 
                 
-                <form class="form-horizontal" action="mailto:kis@kellogg.northwestern.edu" method="post" enctype="text/plain">
-                    <fieldset>
+                <!-- Form built via https://bootsnipp.com/forms --> 
+                <form class="form-horizontal">
+                <fieldset>
 
-                    If you're interested in ordering this laptop or any of the accessories, please fill out the form below to send an e-mail to KIS. We'll help your support staff put together the order for you. We can also provide additional consulting beyond what's on this page.
-   
-                    </fieldset>
+                <!-- Form Name -->
+                <legend></legend>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="textinput_netid">NetID</label>  
+                  <div class="col-md-5">
+                  <input id="textinput_netid" name="textinput_netid" type="text" placeholder="abc123" class="form-control input-md" required="">
+                  <span class="help-block">Please enter your NetID so we can get back to you.</span>  
+                  </div>
+                </div>
+
+                <!-- Multiple Checkboxes -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="checkboxes_options">Options</label>
+                  <div class="col-md-4">
+                  <div class="checkbox">
+                    <label for="checkbox_T470s">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_t470s" class="checkboxes_options" value="Lenovo ThinkPad T470s (CDW part #4642125)">
+                      Lenovo ThinkPad T470s
+                    </label>
+                    </div>
+                  <div class="checkbox">
+                    <label for="checkbox_t470s_ultradock">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_t470s_ultradock" class="checkboxes_options" value="Lenovo ThinkPad Ultra Dock (CDW part #3118456)">
+                      Lenovo ThinkPad Ultra Dock
+                    </label>
+                    </div>
+                  <div class="checkbox">
+                    <label for="checkbox_t470s_poweradapter">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_t470s_poweradapter" class="checkboxes_options" value="Lenovo ThinkPad 65W Power Adapter (CDW part #3041198)">
+                      Lenovo ThinkPad 65W Power Adapter
+                    </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="singlebutton"></label>
+                  <div class="col-md-4">
+                    <button id="button_submit" name="button_submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+
+                </fieldset>
                 </form>
+
             </div>
             
         </div>
@@ -290,6 +335,25 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/underscore-min.js"></script>
+
+    <script type="text/javascript">
+    var mailto_address = "nicholas.bennett@kellogg.northwestern.edu";    
+
+    $('#button_submit').click(function(event) {
+        event.preventDefault();
+        var formtext = getForm();
+        window.location = "mailto:" + mailto_address + "?subject=Faculty Hardware - Interested in T470s and/or accessories&body=" + formtext;
+    });
+
+    function getForm() {
+        var netid = document.getElementById('textinput_netid').value;
+        var checked_values = _.map(document.querySelectorAll('.checkboxes_options:checked'), function(item) { return item.value; })
+        var items_string = checked_values.join(', ');
+        return "My NetID is " + netid + ", and I'm interested in talking about ordering the following items: " + items_string;
+    }
+    </script>
 
 </body>
 

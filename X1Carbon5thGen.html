@@ -304,18 +304,84 @@
         <div class="row">
             
             <div class="col-lg-12">
-                <h3 class="page-header">Ordering / Consulting - UNDER CONSTRUCTION</h3>
+                <h3 class="page-header">Ordering / Consulting</h3>
             </div>
             
             <div class="col-lg-12"> 
                 
-                <form class="form-horizontal" action="mailto:kis@kellogg.northwestern.edu" method="post" enctype="text/plain">
-                    <fieldset>
+                <!-- Form built via https://bootsnipp.com/forms --> 
+                <form class="form-horizontal">
+                <fieldset>
 
-                    If you're interested in ordering this laptop or any of the accessories, please fill out the form below to send an e-mail to KIS. We'll help your support staff put together the order for you. We can also provide additional consulting beyond what's on this page.
-   
-                    </fieldset>
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="textinput_netid">NetID</label>  
+                  <div class="col-md-5">
+                  <input id="textinput_netid" name="textinput_netid" type="text" placeholder="abc123" class="form-control input-md" required="">
+                  <span class="help-block">Please enter your NetID so we can get back to you.</span>  
+                  </div>
+                </div>
+
+                <!-- Multiple Checkboxes -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="checkboxes_options">Options</label>
+                  <div class="col-md-4">
+                    <div class="checkbox">
+                    <label for="checkbox_x1c5">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_x1c5" class="checkboxes_options" value="Lenovo ThinkPad X1 Carbon 5th Gen (CDW part #4642128)">
+                      Lenovo ThinkPad X1 Carbon 5th Gen
+                    </label>
+                    </div>
+                    <div class="checkbox">
+                    <label for="checkbox_x1c5_thunderbolt3dock">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_x1c5_thunderbolt3dock" class="checkboxes_options" value="Lenovo ThinkPad Thunderbolt 3 Dock (CDW part #4452433)">
+                      Lenovo ThinkPad Thunderbolt 3 Dock
+                    </label>
+                    </div>
+                    <div class="checkbox">
+                    <label for="checkbox_x1c5_poweradapter">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_x1c5_poweradapter" class="checkboxes_options" value="Lenovo USB-C 65W AC Adapter (CDW part #4512877)">
+                      Lenovo USB-C 65W AC Adapter
+                    </label>
+                    </div>
+                    <div class="checkbox">
+                    <label for="checkbox_x1c5_sleeve">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_x1c5_sleeve" class="checkboxes_options" value="Lenovo ThinkPad Ultra Sleeve (CDW part #4023287)">
+                      Lenovo ThinkPad Ultra Sleeve
+                    </label>
+                    </div>
+                    <div class="checkbox">
+                    <label for="checkbox_x1c5_ethernetadapter">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_x1c5_ethernetadapter" class="checkboxes_options" value="Lenovo USB-C to Ethernet Adapter (CDW part #4477710)">
+                      Lenovo USB-C to Ethernet Adapter
+                    </label>
+                    </div>
+                    <div class="checkbox">
+                    <label for="checkbox_x1c5_vgaadapter">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_x1c5_vgaadapter" class="checkboxes_options" value="Lenovo USB-C to VGA Adapter (CDW part #4599346)">
+                      Lenovo USB-C to VGA Adapter
+                    </label>
+                    </div>
+                    <div class="checkbox">
+                    <label for="checkbox_x1c5_displayportadapter">
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_x1c5_displayportadapter" class="checkboxes_options" value="Lenovo USB-C to DisplayPort Adapter (CDW part #4631987)">
+                      Lenovo USB-C to DisplayPort Adapter
+                    </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="singlebutton"></label>
+                  <div class="col-md-4">
+                    <button id="button_submit" name="button_submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+
+                </fieldset>
                 </form>
+
             </div>
             
         </div>
@@ -340,6 +406,25 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/underscore-min.js"></script>
+
+    <script type="text/javascript">
+    var mailto_address = "nicholas.bennett@kellogg.northwestern.edu";    
+                
+    $('#button_submit').click(function(event) {
+        event.preventDefault();
+        var formtext = getForm();
+        window.location = "mailto:" + mailto_address + "?subject=Faculty Hardware - Interested in X1 Carbon 5th Gen and/or accessories&body=" + formtext;
+    });
+
+    function getForm() {
+        var netid = document.getElementById('textinput_netid').value;
+        var checked_values = _.map(document.querySelectorAll('.checkboxes_options:checked'), function(item) { return item.value; })
+        var items_string = checked_values.join(', ');
+        return "My NetID is " + netid + ", and I'm interested in talking about ordering the following items: " + items_string;
+    }
+    </script>
 
 </body>
 
