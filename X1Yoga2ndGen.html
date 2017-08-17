@@ -416,20 +416,22 @@
     <script src="js/underscore-min.js"></script>
 
     <script type="text/javascript">
-    var mailto_address = "nicholas.bennett@kellogg.northwestern.edu";    
-        
-    $('#button_submit').click(function(event) {
-        event.preventDefault();
-        var formtext = getForm();
-        window.location = "mailto:" + mailto_address + "?subject=Faculty Hardware - Interested in X1 Yoga 2nd Gen and/or accessories&body=" + formtext;
-    });
+        (function($) {
+            var mailto_address = "kis@kellogg.northwestern.edu";    
 
-    function getForm() {
-        var netid = document.getElementById('textinput_netid').value;
-        var checked_values = _.map(document.querySelectorAll('.checkboxes_options:checked'), function(item) { return item.value; })
-        var items_string = checked_values.join(', ');
-        return "My NetID is " + netid + ", and I'm interested in talking about ordering the following items: " + items_string;
-    }
+            $('#button_submit').click(function(event) {
+                event.preventDefault();
+                var formtext = getForm();
+                window.location = "mailto:" + mailto_address + "?subject=Faculty Hardware - Interested in X1 Yoga 2nd Gen and/or accessories&body=" + formtext;
+            });
+
+            function getForm() {
+                var netid = document.getElementById('textinput_netid').value;
+                var checked_values = _.map(document.querySelectorAll('.checkboxes_options:checked'), function(item) { return item.value; })
+                var items_string = checked_values.join(', ');
+                return "My NetID is " + netid + ", and I'm interested in talking about ordering the following items: " + items_string;
+            }
+        })(jQuery);
     </script>
 
 </body>
