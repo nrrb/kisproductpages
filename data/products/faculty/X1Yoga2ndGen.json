@@ -105,6 +105,16 @@
     	"name": "USB-C Plug",
     	"image_href": "images/X1Yoga2ndGen/accessories/USB-C%20close-up.jpg"
     },
+    "video_ports": [
+        {
+            "image_href": "images/X1Yoga2ndGen/accessories/X1Yoga2ndGen-HDMIPort.png",
+            "name": "HDMI"
+        },
+        {
+            "image_href": "images/X1Yoga2ndGen/accessories/X1Yoga2ndGen-Thunderbolt3Ports.png",
+            "name": "Thunderbolt 3"
+        }
+    ],
     "compatible_accessories": [
     	{
     		"cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-65W-AC-Adapter-power-adapter-65-Watt/4512877.aspx",

@@ -114,6 +114,16 @@
     	"name": "Lenovo Square Tip",
     	"image_href": "images/T470s/accessories/Lenovo%20Square%20connector%20close-up.jpg"
     },
+    "video_ports": [
+    	{
+    		"image_href": "images/T470s/accessories/T470s-HDMIPort.png",
+    		"name": "HDMI"
+    	},
+    	{
+    		"image_href": "images/T470s/accessories/T470s-Thunderbolt3Port.png",
+    		"name": "Thunderbolt 3"
+    	}
+    ],
     "compatible_accessories": [
     	{
     		"cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Ultra-Dock-port-replicator/3118456.aspx?pfm=srh",
