@@ -1,0 +1,59 @@
+{
+    "template_type": "index",
+    "audience": "faculty",
+    "output_filename": "index.html",
+    "description": "Listing of Lenovo hardware offerings for 2017-18 as recommended by KIS. This consists of the ThinkPad X1 Yoga 2nd Gen, ThinkPad X1 Carbon 5th Gen, ThinkPad T470s, and the ThinkCentre M910t Desktop.",
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "page_title": "KIS - 2017-18 Hardware Offerings - Lenovo X1 Yoga 2nd Gen, X1 Carbon 5th Gen, T470s, M910t Desktop",
+	"products": [
+		{
+			"href": "M910t.html",
+			"image_href": "images/M910Tower/desktop/700x300/4603050a.jpg",
+			"name": "ThinkCentre M910t Desktop",
+			"price": "$1257.00",
+			"short_description": "High Performance Desktop with Expandability",
+			"highlights": [
+				"Intel i7-7700 3.8 GHz CPU",
+				"16 GB RAM expandable to 64 GB",
+				"512 GB NVMe SSD",
+				"Dual 2K monitor output"
+			]
+		},
+		{
+			"href": "T470s.html",
+			"image_href": "images/T470s/laptop/700x300/lenovo-laptop-thinkpad-t470s-black-gallery-11.jpg",
+			"name": "Lenovo ThinkPad T470s",
+			"price": "$1878.00",
+			"short_description": "Lowest-priced, High Performance Laptop",
+			"highlights": [
+				"RAM expandable to 24 GB",
+				"Uses square tip power cable",
+				"3 year Accidental Damage Protection (ADP) warranty (*)"
+			]
+		},
+		{
+			"href": "X1Carbon5thGen.html",
+			"image_href": "images/X1Carbon5thGen/laptop/700x300/ww-lenovo-laptop-thinkpad-x1-carbon5-gallery-3.png.jpg",
+			"name": "Lenovo ThinkPad X1 Carbon 5th Gen",
+			"price": "$2163.00",
+			"short_description": "Thinnest and Lightest Laptop",
+			"highlights": [
+				"2.49 lb and 0.63\" thick",
+				"No touch screen",
+				"3 year Accidental Damage Protection (ADP) warranty (*)"
+			]
+		},
+		{
+			"href": "X1Yoga2ndGen.html",
+			"image_href": "images/X1Yoga2ndGen/laptop/700x300/lenovo-thinkpad-x1-yoga-gallery3.png.jpg",
+			"name": "Lenovo ThinkPad X1 Yoga 2nd Gen",
+			"price": "$2241.00",
+			"short_description": "Ultralight Tablet/Laptop Convertible",
+			"highlights": [
+				"Touch and Pen Input",
+				"3.15 lb and 0.69\" thick",
+				"3 year Accidental Damage Protection (ADP) warranty (*)"
+			]
+		}
+	]
+}
