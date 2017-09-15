@@ -1,0 +1,145 @@
+{
+    "template_type": "laptop",
+    "audience": "faculty",
+    "output_filename": "X1Yoga2ndGen.html",
+    "description": "Product description for the Lenovo ThinkPad X1 Yoga 2nd Generation tablet, available for purchase by Kellogg School of Management faculty and staff.",
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "page_title": "KIS - X1 Yoga 2nd Gen - Product Page",
+    "product_name": "Lenovo ThinkPad X1 Yoga (2nd Gen)",
+    "product_name_short": "X1 Yoga 2nd Gen",
+    "cdwg_href": "https://www.cdwg.com/shop/cart/carthandler.aspx?EDC=4642134&edc=1197180",
+    "carousel_images": [
+    	"images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery3.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery1.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery2.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery4.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery5.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery6.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery7.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery8.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery9.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery10.png.jpg",
+        "images/X1Yoga2ndGen/laptop/750x500/lenovo-thinkpad-x1-yoga-gallery11.png.jpg"
+    ],
+    "description_long": "This Lenovo ThinkPad X1 Yoga is the second generation of a very popular and successful tablet at Kellogg. Popular with presenters, note-takers, people who like using touch interaction, or who just want to try something new.",
+    "highlights": [
+    	"Thinnest (0.69\") and lightest (3.15 lb) full-size ultraportable laptop/tablet convertible available.",
+        "Tablet interaction works with both the high-precision stylus and with 10-point Touch sensitivity.",
+        "3 year Accidental Damage Protection warranty covers all accidental damage, including water damage and drops."
+    ],
+    "specifications": [
+    	{
+    		"name": "Weight",
+    		"detail": "3.15 lb (1.42 kg)"
+    	},
+    	{
+    		"name": "Size (WxDxH)",
+    		"detail": "13.11\" x 9.02\" x 0.69\"; 333mm x 229mm x 17.4mm"
+    	},
+    	{
+    		"name": "Processor",
+    		"detail": "Intel Core i7-7600U 2.80 GHz (2 cores, 4 with HT)"
+    	},
+    	{
+    		"name": "RAM",
+    		"detail": "16 GB"
+    	},
+    	{
+    		"name": "Storage",
+    		"detail": "512 GB SSD (upgradeable to 1 TB)"
+    	},
+    	{
+    		"name": "Display",
+    		"detail": "14\" 1920x1080 resolution (FHD; 270 nits brightness; Touch and Pen)"
+    	},
+    	{
+    		"name": "Battery",
+    		"detail": "4-cell 56 Wh (up to 15.5 hours)"
+    	},
+    	{
+    		"name": "Warranty",
+    		"detail": "3 year Accidental Damage Protection"
+    	}
+    ],
+    "reviews": [
+    	{
+    		"href": "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-x1-yoga",
+    		"source": "Laptop Magazine",
+    		"summary": "4.5/5 Stars, Editors' Choice - 6/23/2017"
+    	},
+        {
+            "href": "https://www.pastemagazine.com/articles/2017/06/lenovo-thinkpad-x1-yoga-review.html",
+            "source": "Paste Magazine",
+            "summary": "Editors' Choice - 6/20/2017"
+        },
+        {
+            "href": "https://www.notebookcheck.net/Lenovo-ThinkPad-X1-Yoga-2017-Core-i7-OLED-Convertible-Review.226116.0.html",
+            "source": "NotebookCheck",
+            "summary": "88%, very good (rated with different screen and SSD options) - 6/7/2017"
+        },
+        {
+            "href": "https://techeditorials.com/lenovo-thinkpad-x1-yoga-2nd-gen-20jd004uus-2017-review/",
+            "source": "TechEditorials",
+            "summary": "4.5/5 Stars - 6/5/2017"
+        }
+    ],
+    "additional_links": [
+    	{
+    		"href": "http://www3.lenovo.com/us/en/laptops/thinkpad/thinkpad-x/Thinkpad-X1-Yoga-2nd-Generation/p/22TP2TXX12Y",
+    		"name": "Lenovo Product Page"
+    	},
+        {
+            "href": "http://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-yoga-type-20jd-20je-20jf-20jg",
+            "name": "Lenovo Product Support Page"
+        },
+        {
+            "href": "https://download.lenovo.com/pccbbs/mobiles_pdf/x1_yoga_hmm_en_sp40k88722_02.pdf",
+            "name": "Lenovo Hardware Maintenance Manual (PDF)"
+        },
+        {
+            "href": "http://psref.lenovo.com/syspool/Sys/PDF/Think%20Tablets%20_%20Convertibles/ThinkPad%20X1%20Yoga%20(2nd%20Gen)/ThinkPad_X1_Yoga_2nd_specs.pdf",
+            "name": "Lenovo Product Specifications Reference (PSREF)"
+        }
+    ],
+    "compatible_power_plug": {
+    	"name": "USB-C Plug",
+    	"image_href": "images/X1Yoga2ndGen/accessories/USB-C%20close-up.jpg"
+    },
+    "compatible_accessories": [
+    	{
+    		"cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-65W-AC-Adapter-power-adapter-65-Watt/4512877.aspx",
+    		"name": "USB-C 65W AC Adapter",
+    		"image_href": "images/X1Yoga2ndGen/accessories/USB-C 65W AC Adapter - 500x400.jpg"
+    	},
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Thunderbolt-3-Dock-port-replicator/4452433.aspx?pfm=srh",
+            "name": "Thunderbolt 3 Dock",
+            "image_href": "images/X1Yoga2ndGen/accessories/Thunderbolt 3 Dock - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-to-VGA-Plus-Power-Adapter-external-video-adapter/4599346.aspx?pfm=srh",
+            "name": "USB-C to VGA Adapter",
+            "image_href": "images/X1Yoga2ndGen/accessories/USB-C to VGA Adapter - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-to-DisplayPort-Adapter-external-video-adapter/4631987.aspx?pfm=srh",
+            "name": "USB-C to DisplayPort Adapter",
+            "image_href": "images/X1Yoga2ndGen/accessories/USB-C to DisplayPort Adapter - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-network-adapter/4477710.aspx?pfm=srh",
+            "name": "USB-C to Gigabit Ethernet Adapter",
+            "image_href": "images/X1Yoga2ndGen/accessories/USB-C to Gigabit Ethernet Adapter - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Ultra-Sleeve-notebook-sleeve/4023287.aspx?enkwrd=4x40k41705&pfm=srh",
+            "name": "ThinkPad X1 Ultra Sleeve",
+            "image_href": "images/X1Yoga2ndGen/accessories/ThinkPad X1 Ultra Sleeve - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Active-Capacitive-Pen-stylus/3749880.aspx?RecommendedForEDC=4024125&RecoType=RP&cm_sp=Product-_-Session&ProgramIdentifier=3",
+            "name": "ThinkPad Pen Pro",
+            "image_href": "images/X1Yoga2ndGen/accessories/ThinkPad Pen Pro - 500x400.jpg"
+        }
+    ]
+}

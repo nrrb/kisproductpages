@@ -1,0 +1,147 @@
+{
+    "template_type": "laptop",
+    "audience": "faculty",
+    "output_filename": "X1Carbon5thGen.html",
+    "description": "Product description for the Lenovo ThinkPad X1 Carbon 5th Generation laptop, available for purchase by Kellogg School of Management faculty and staff.",
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "page_title": "KIS - X1 Carbon 5th Gen - Product Page",
+    "product_name": "Lenovo ThinkPad X1 Carbon (5th Gen)",
+    "product_name_short": "ThinkPad X1 Carbon 5th Gen",
+    "cdwg_href": "https://www.cdwg.com/shop/cart/carthandler.aspx?EDC=4642128&edc=1197180",
+    "carousel_images": [
+    	"images/X1Carbon5thGen/laptop/750x500/4481528.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528a.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528b.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528c.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528d.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528e.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528f.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528g.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528h.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528i.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528j.jpg-750.jpg",
+        "images/X1Carbon5thGen/laptop/750x500/4481528k.jpg-750.jpg"
+    ],
+    "description_long": "This Lenovo ThinkPad X1 Carbon is the fifth generation of the most popular ultraportable laptop at Kellogg. It's favored for its 14\" screen, solid build quality, exceptionally low weight and thickness, and performance that's competitive with larger laptops. This is a favorite among travelers, anyone who doesn't want to heft unnecessary weight, and those who want a simple docking experience (using just one cable with the Thunderbolt 3 dock).",
+    "highlights": [
+    	"Thinnest (0.63\") and lightest (2.49 lb) full-size ultraportable laptop available.",
+        "Despite being ultraportable it has all the power of larger laptops, including the newest generation of the Intel i7 2.80 GHz processor, 16 GB RAM, and 512 GB SSD.",
+        "With the Thunderbolt 3 dock, this can output to two 4K monitors. This makes the laptop suitable as a desktop replacement, depending on your usage.",
+        "3 year Accidental Damage Protection warranty covers all accidental damage, including water damage and drops."
+    ],
+    "specifications": [
+    	{
+    		"name": "Weight",
+    		"detail": "2.49 lb (1.13 kg)"
+    	},
+    	{
+    		"name": "Size (WxDxH)",
+    		"detail": "12.74\" x 8.55\" x 0.63\"; 323.5mm x 217.1mm x 15.95mm"
+    	},
+    	{
+    		"name": "Processor",
+    		"detail": "Intel Core i7-7600U 2.80 GHz (2 cores, 4 with HT)"
+    	},
+    	{
+    		"name": "RAM",
+    		"detail": "16 GB"
+    	},
+    	{
+    		"name": "Storage",
+    		"detail": "512 GB SSD (upgradeable to 1 TB)"
+    	},
+    	{
+    		"name": "Display",
+    		"detail": "14\" 1920x1080 resolution (FHD; 300 nits brightness)"
+    	},
+    	{
+    		"name": "Battery",
+    		"detail": "3-cell 57 Wh (up to 15.5 hours)"
+    	},
+    	{
+    		"name": "Warranty",
+    		"detail": "3 year Accidental Damage Protection"
+    	}
+    ],
+    "reviews": [
+    	{
+    		"href": "http://www.zdnet.com/product/lenovo-thinkpad-x1-carbon-2017/",
+    		"source": "ZDNet",
+    		"summary": "9.0/10.0 Outstanding - 6/12/2017"
+    	},
+        {
+            "href": "https://www.cnet.com/products/lenovo-thinkpad-x1-carbon-2017/review/",
+            "source": "CNet",
+            "summary": "8.2/10.0 - 5/1/2017"
+        },
+        {
+            "href": "https://www.wired.com/2017/04/review-lenovo-thinkpad-x1-carbon/",
+            "source": "Wired Magazine",
+            "summary": "8/10 (very short and light review) - 4/28/2017"
+        },
+        {
+            "href": "http://www.notebookreview.com/notebookreview/lenovo-thinkpad-x1-carbon-5th-generation2017-review/",
+            "source": "NotebookReview",
+            "summary": "4/5 Stars - 4/19/2017"
+        },
+        {
+            "href": "https://www.notebookcheck.net/Lenovo-ThinkPad-X1-Carbon-2017-Core-i7-Full-HD-Laptop-Review.207160.0.html",
+            "source": "Notebook Check",
+            "summary": "90% (very detailed benchmarking in this review) - 3/24/2017"
+        }
+    ],
+    "additional_links": [
+    	{
+    		"href": "http://www3.lenovo.com/us/en/laptops/thinkpad/thinkpad-x/X1-Carbon-5th-Generation/p/22TP2TXX15G",
+    		"name": "Lenovo Product Page"
+    	},
+        {
+            "href": "http://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-type-20hr-20hq/20hq/20hqs1tr00",
+            "name": "Lenovo Product Support Page"
+        },
+        {
+            "href": "https://download.lenovo.com/pccbbs/mobiles_pdf/x1_carbon_5th_hmm_en_sp40m11925_02.pdf",
+            "name": "Lenovo Hardware Maintenance Manual (PDF)"
+        },
+        {
+            "href": "http://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad%20X1%20Carbon%20(5th%20Gen)/ThinkPad_X1_Carbon_5th_Gen_Platform_Specifications.pdf",
+            "name": "Lenovo Product Specifications Reference (PSREF)"
+        }
+    ],
+    "compatible_power_plug": {
+    	"name": "USB-C Plug",
+    	"image_href": "images/X1Carbon5thGen/accessories/USB-C%20close-up.jpg"
+    },
+    "compatible_accessories": [
+    	{
+    		"cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-65W-AC-Adapter-power-adapter-65-Watt/4512877.aspx",
+    		"name": "USB-C 65W AC Adapter",
+    		"image_href": "images/X1Yoga2ndGen/accessories/USB-C 65W AC Adapter - 500x400.jpg"
+    	},
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Thunderbolt-3-Dock-port-replicator/4452433.aspx?pfm=srh",
+            "name": "Thunderbolt 3 Dock",
+            "image_href": "images/X1Yoga2ndGen/accessories/Thunderbolt 3 Dock - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-to-VGA-Plus-Power-Adapter-external-video-adapter/4599346.aspx?pfm=srh",
+            "name": "USB-C to VGA Adapter",
+            "image_href": "images/X1Yoga2ndGen/accessories/USB-C to VGA Adapter - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-to-DisplayPort-Adapter-external-video-adapter/4631987.aspx?pfm=srh",
+            "name": "USB-C to DisplayPort Adapter",
+            "image_href": "images/X1Yoga2ndGen/accessories/USB-C to DisplayPort Adapter - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-network-adapter/4477710.aspx?pfm=srh",
+            "name": "USB-C to Gigabit Ethernet Adapter",
+            "image_href": "images/X1Yoga2ndGen/accessories/USB-C to Gigabit Ethernet Adapter - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Ultra-Sleeve-notebook-sleeve/4023287.aspx?enkwrd=4x40k41705&pfm=srh",
+            "name": "ThinkPad X1 Ultra Sleeve",
+            "image_href": "images/X1Yoga2ndGen/accessories/ThinkPad X1 Ultra Sleeve - 500x400.jpg"
+        }
+    ]
+}
