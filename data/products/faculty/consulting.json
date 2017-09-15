@@ -1,0 +1,8 @@
+{
+    "template_type": "consulting",
+    "audience": "faculty",
+    "output_filename": "consulting.html",
+    "description": "KIS Consulting services for new computer hardware of interest to Kellogg faculty. This includes non-standard models, Apple systems, special use-cases, and anyone who needs a personal touch in deciding what to get.",
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "page_title": "KIS - Hardware Consulting"
+}
