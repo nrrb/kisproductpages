@@ -1,0 +1,72 @@
+{
+    "template_type": "desktop",
+    "audience": "staff",
+    "output_filename": "M910q.html",
+    "description": "Product description for the Lenovo ThinkCentre M910q Tiny (Desktop), available for purchase by Kellogg School of Management faculty and staff.",
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "page_title": "KIS - Lenovo ThinkCentre M910q Tiny (Desktop) - Product Page",
+    "product_name": "Lenovo ThinkCentre M910q Tiny (Desktop)",
+    "product_name_short": "M910q",
+    "cdwg_href": "https://www.cdwg.com/shop/cart/carthandler.aspx?EDC=4642120&edc=1197180",
+    "carousel_images": [
+    	"images/M910qTiny/desktop/750x500/"
+    ],
+    "description_long": "This desktop is smaller than a laptop and can handle any work you throw at it. With the 3.80 GHz Intel Core i7-7700T processor, 8 GB RAM, and a 512 GB SSD using the new NVMe interface (up to 4X as fast as existing SATA SSDs), you don't have to spend a lot to get workstation-level performance. The onboard video provides dual monitor output at 2K each.",
+    "highlights": [
+        "Smallest desktop footprint yet, can easily be hidden behind a monitor in any workstation scenario",
+    	"CPU is new Intel Core i7-7700T 3.80 GHz from the Kaby Lake processor family",
+        "8 GB RAM",
+        "512 GB SSD with new NVMe interface, up to 4X as fast as existing SATA SSDs",
+        "Support for dual monitor output at 2K resolution each, via two DisplayPort ports"
+    ],
+    "specifications": [
+    	{
+    		"name": "Processor",
+    		"detail": "Intel Core i7-7700T 3.80 GHz (4 cores, 8 with HT)"
+    	},
+    	{
+    		"name": "RAM",
+    		"detail": "8 GB"
+    	},
+    	{
+    		"name": "Storage",
+    		"detail": "512 GB SSD with NVMe interface"
+    	},
+    	{
+    		"name": "Video output",
+    		"detail": "Dual DisplayPort, up to 2K each"
+    	},
+    	{
+    		"name": "Warranty",
+    		"detail": "4 Year Onsite Warranty"
+    	},
+        {
+            "name": "Weight",
+            "detail": ""
+        },
+        {
+            "name": "Size (WxDxH)",
+            "detail": ""
+        }
+    ],
+    "additional_links": [
+    	{
+    		"href": "http://www3.lenovo.com/us/en/desktops-and-all-in-ones/thinkcentre/m-series-tiny/ThinkCentre-M910-Tiny/p/11TC1MT910Q",
+    		"name": "Lenovo Product Page"
+    	},
+        {
+            "href": "https://pcsupport.lenovo.com/us/en/products/DESKTOPS-AND-ALL-IN-ONES/THINKCENTRE-M-SERIES-DESKTOPS/THINKCENTRE-M910Q",
+            "name": "Lenovo Product Support Page"
+        },
+        {
+            "href": "https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m910q/manuals/UM920737",
+            "name": "Lenovo Hardware Maintenance Manual"
+        },
+        {
+            "href": "http://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre%20M910%20Tiny/M910%20Tiny.pdf",
+            "name": "Lenovo Product Specifications Reference (PSREF)"
+        }
+    ],
+    "compatible_accessories": [
+    ]
+}

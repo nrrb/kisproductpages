@@ -1,79 +1,146 @@
 {
-    "template_type": "",
-    "audience": "",
-    "output_filename": "",
-    "description": "",
+    "template_type": "laptop",
+    "audience": "staff",
+    "output_filename": "Yoga370.html",
+    "description": "Product description for the Lenovo ThinkPad Yoga 370 tablet, available for purchase by Kellogg School of Management faculty and staff.",
     "author_email": "nicholas.bennett@kellogg.northwestern.edu",
-    "page_title": "",
-    "product_name": "",
-    "cdwg_href": "",
+    "page_title": "KIS - Yoga 370 - Product Page",
+    "product_name": "Lenovo ThinkPad Yoga 370",
+    "product_name_short": "Yoga 370",
+    "cdwg_href": "https://www.cdwg.com/shop/cart/carthandler.aspx?EDC=4642122&edc=1197180",
     "carousel_images": [
-    	"",
-        "",
-        ""
+    	"images/Yoga370/laptop/750x500/"
     ],
-    "description_long": "",
+    "description_long": "This Lenovo ThinkPad Yoga 370 is the workhorse tablet/laptop convertible at Kellogg, the successor to the tablet used by our teaching support team.",
     "highlights": [
-    	"",
-        "",
-        ""
+    	"Convertible between tablet and laptop modes by simply hinging the screen backwards.",
+        "Tablet interaction works with both the high-precision stylus and with 10-point Touch sensitivity.",
+        "3 year Accidental Damage Protection warranty covers all accidental damage, including water damage and drops."
     ],
     "specifications": [
     	{
     		"name": "Weight",
-    		"detail": ""
+    		"detail": "3.03 lb (1.37 kg)"
     	},
     	{
     		"name": "Size (WxDxH)",
-    		"detail": ""
+    		"detail": "12.34\" x 8.75\" x 0.72\"; 313.5mm x 222.2mm x 18.2mm"
     	},
     	{
     		"name": "Processor",
-    		"detail": ""
+    		"detail": "Intel Core i7-7600U 2.80 GHz (2 cores, 4 with HT)"
     	},
     	{
     		"name": "RAM",
-    		"detail": ""
+    		"detail": "16 GB"
     	},
     	{
     		"name": "Storage",
-    		"detail": ""
+    		"detail": "512 GB SSD"
     	},
     	{
     		"name": "Display",
-    		"detail": ""
+            "detail": "13.3\" 1920x1080 resolution (FHD; 300 nits brightness; Touch and Pen)"
     	},
     	{
     		"name": "Battery",
-    		"detail": ""
+    		"detail": "4-cell 51 Wh (up to 12.5 hours)"
     	},
     	{
     		"name": "Warranty",
-    		"detail": ""
+    		"detail": "3 year Accidental Damage Protection"
     	}
     ],
     "reviews": [
     	{
-    		"href": "",
-    		"source": "",
-    		"summary": ""
-    	}
+    		"href": "https://www.notebookcheck.net/Lenovo-ThinkPad-Yoga-370-7200U-FHD-Convertible-Review.211902.0.html",
+    		"source": "NotebookCheck",
+    		"summary": "87%, very good (rated with different screen and SSD options) - 4/10/2017"
+    	},
+        {
+            "href": "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-yoga-370",
+            "source": "Laptop Magazine",
+            "summary": "3.5/5 Stars - 8/24/2017"
+        },
+        {
+            "href": "http://www.notebookreview.com/notebookreview/lenovo-thinkpad-yoga-370-review/",
+            "source": "Notebook Review",
+            "summary": "3.9/5 Stars - 8/31/2017"
+        }
     ],
     "additional_links": [
     	{
-    		"href": "",
-    		"name": ""
-    	}
+    		"href": "http://www3.lenovo.com/us/en/laptops/thinkpad/thinkpad-yoga/Yoga-370/p/22TP2TXY370",
+    		"name": "Lenovo Product Page"
+    	},
+        {
+            "href": "https://pcsupport.lenovo.com/us/en/products/LAPTOPS-AND-NETBOOKS/THINKPAD-YOGA-SERIES-LAPTOPS/THINKPAD-YOGA-370",
+            "name": "Lenovo Product Support Page"
+        },
+        {
+            "href": "https://download.lenovo.com/pccbbs/mobiles_pdf/yoga_370_hmm_en_sp40k88757_02.pdf",
+            "name": "Lenovo Hardware Maintenance Manual (PDF)"
+        },
+        {
+            "href": "http://psref.lenovo.com/syspool/Sys/PDF/Think%20Tablets%20_%20Convertibles/ThinkPad%20Yoga%20370/ThinkPad_Yoga370_specs.pdf",
+            "name": "Lenovo Product Specifications Reference (PSREF)"
+        }
     ],
-    "compatible_power_plug": {
-    	"name": "",
-    	"image_href": ""
-    },
+    "compatible_power_plugs": [
+        {
+            "name": "Lenovo Square Tip",
+            "image_href": "images/Yoga370/accessories/Lenovo%20Square%20connector%20close-up.jpg"
+        },
+        {
+            "name": "USB-C Plug",
+            "image_href": "images/Yoga370/accessories/USB-C%20close-up.jpg"
+        }
+    ],
+    "video_ports": [
+        {
+            "image_href": "images/Yoga370/accessories/",
+            "name": "HDMI"
+        },
+        {
+            "image_href": "images/Yoga370/accessories/",
+            "name": "Thunderbolt 3"
+        }
+    ],
     "compatible_accessories": [
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-65W-Power-Adapter/3041198.aspx?pfm=srh",
+            "name": "Lenovo ThinkPad 65W Power Adapter",
+            "image_href": "images/Yoga370/accessories/ThinkPad%2065W%20AC%20Adapter%20-%20500x400.jpg"
+        },
     	{
-    		"cdwg_href": "",
-    		"name": "",
-    		"image_href": ""
-    	}
+    		"cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-65W-AC-Adapter-power-adapter-65-Watt/4512877.aspx",
+    		"name": "USB-C 65W AC Adapter",
+    		"image_href": "images/Yoga370/accessories/USB-C 65W AC Adapter - 500x400.jpg"
+    	},
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Thunderbolt-3-Dock-port-replicator/4452433.aspx?pfm=srh",
+            "name": "Thunderbolt 3 Dock",
+            "image_href": "images/Yoga370/accessories/Thunderbolt 3 Dock - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-to-VGA-Plus-Power-Adapter-external-video-adapter/4599346.aspx?pfm=srh",
+            "name": "USB-C to VGA Adapter",
+            "image_href": "images/Yoga370/accessories/USB-C to VGA Adapter - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-USB-C-to-DisplayPort-Adapter-external-video-adapter/4631987.aspx?pfm=srh",
+            "name": "USB-C to DisplayPort Adapter",
+            "image_href": "images/Yoga370/accessories/USB-C to DisplayPort Adapter - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-network-adapter/4477710.aspx?pfm=srh",
+            "name": "USB-C to Gigabit Ethernet Adapter",
+            "image_href": "images/Yoga370/accessories/USB-C to Gigabit Ethernet Adapter - 500x400.jpg"
+        },
+        {
+            "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Active-Capacitive-Pen-stylus/3749880.aspx?RecommendedForEDC=4024125&RecoType=RP&cm_sp=Product-_-Session&ProgramIdentifier=3",
+            "name": "ThinkPad Pen Pro",
+            "image_href": "images/Yoga370/accessories/ThinkPad Pen Pro - 500x400.jpg"
+        }
     ]
 }

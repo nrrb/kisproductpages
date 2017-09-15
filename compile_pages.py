@@ -38,5 +38,9 @@ if __name__=="__main__":
 								'data/products/faculty/X1Carbon5thGen.json',
 								'data/products/faculty/X1Yoga2ndGen.json',
 								'data/products/faculty/M910tDesktop.json',
-								'data/products/faculty/index.json'	):
+								'data/products/faculty/index.json',
+								'data/products/staff/T470s.json',
+								'data/products/staff/Yoga370.json',
+								'data/products/staff/M910qTiny.json',
+								'data/products/staff/index.json'	):
 		render_template_to_file(json_source_file)

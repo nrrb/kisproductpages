@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ description }}">
-    <meta name="author" content="{{ author_email }}">
+    <meta name="description" content="Product description for the Lenovo ThinkCentre M910q Tiny (Desktop), available for purchase by Kellogg School of Management faculty and staff.">
+    <meta name="author" content="nicholas.bennett@kellogg.northwestern.edu">
 
-    <title>{{ page_title }}</title>
+    <title>KIS - Lenovo ThinkCentre M910q Tiny (Desktop) - Product Page</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,37 @@
 
 <body>
 
-    {% include 'nav.html' %}
+        <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Staff Recommendations</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="T470s.html">T470s</a>
+                    </li>
+                    <li>
+                        <a href="Yoga370.html">Yoga 370</a>
+                    </li>
+                    <li>
+                        <a href="M910qTiny.html">M910q Tiny</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
     <!-- Page Content -->
     <div class="container">
@@ -36,7 +66,7 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">{{ product_name }}</h1>
+                <h1 class="page-header">Lenovo ThinkCentre M910q Tiny (Desktop)</h1>
             </div>
         </div>
         <!-- /.row -->
@@ -49,18 +79,18 @@
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        {% for carousel_image in carousel_images %}
-                        <li data-target="#myCarousel" data-slide-to="{{ loop.index0 }}"{% if loop.first %} class="active"{% endif %}></li>
-                        {% endfor %}
+                        
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
-                        {% for carousel_image in carousel_images %}
-                        <div class="item{% if loop.first %} active{% endif %}">
-                            <img class="img-responsive" src="{{ carousel_image }}" alt="{{ product_name }}" style="width:100%;">
+                        
+                        <div class="item active">
+                            <img class="img-responsive" src="images/M910qTiny/desktop/750x500/" alt="Lenovo ThinkCentre M910q Tiny (Desktop)" style="width:100%;">
                         </div>
-                        {% endfor %}
+                        
                     </div>
 
                     <!-- Left and right controls -->
@@ -79,14 +109,22 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3>Description</h3>
-                        <p>{{ description_long }}</p>
+                        <p>This desktop is smaller than a laptop and can handle any work you throw at it. With the 3.80 GHz Intel Core i7-7700T processor, 8 GB RAM, and a 512 GB SSD using the new NVMe interface (up to 4X as fast as existing SATA SSDs), you don't have to spend a lot to get workstation-level performance. The onboard video provides dual monitor output at 2K each.</p>
                     </div>                
                     <div class="col-md-12">
                         <h3>Highlights</h3>
                         <ul>
-                            {% for highlight in highlights %}
-                            <li>{{ highlight }}</li>
-                            {% endfor %}
+                            
+                            <li>Smallest desktop footprint yet, can easily be hidden behind a monitor in any workstation scenario</li>
+                            
+                            <li>CPU is new Intel Core i7-7700T 3.80 GHz from the Kaby Lake processor family</li>
+                            
+                            <li>8 GB RAM</li>
+                            
+                            <li>512 GB SSD with new NVMe interface, up to 4X as fast as existing SATA SSDs</li>
+                            
+                            <li>Support for dual monitor output at 2K resolution each, via two DisplayPort ports</li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -98,23 +136,26 @@
         
         <div class="row">
             <!-- Specifications Row -->
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <h3>Specifications</h3>
                 <ul>
-                    {% for specification in specifications %}
-                    <li><strong>{{ specification.name }}</strong>: {{ specification.detail }}</li>
-                    {% endfor %}
+                    
+                    <li><strong>Processor</strong>: Intel Core i7-7700T 3.80 GHz (4 cores, 8 with HT)</li>
+                    
+                    <li><strong>RAM</strong>: 8 GB</li>
+                    
+                    <li><strong>Storage</strong>: 512 GB SSD with NVMe interface</li>
+                    
+                    <li><strong>Video output</strong>: Dual DisplayPort, up to 2K each</li>
+                    
+                    <li><strong>Warranty</strong>: 4 Year Onsite Warranty</li>
+                    
+                    <li><strong>Weight</strong>: </li>
+                    
+                    <li><strong>Size (WxDxH)</strong>: </li>
+                    
                 </ul>            
             </div>
-            <!-- Reviews Row -->
-            <div class="col-md-4">
-                <h3>Independent Reviews</h3>
-                <ul>
-                    {% for review in reviews %}
-                    <li><a href="{{ review.href }}">{{ review.source }}</a> - {{ review.summary }}</li>
-                    {% endfor %}
-                </ul>
-            </div>            
         </div>
         
         <!-- Additional Links Row -->
@@ -123,44 +164,19 @@
             <div class="col-md-12">
                 <h3>Additional Links</h3>
                 <ul>
-                    {% for link in additional_links %}
-                    <li><a href="{{ link.href }}">{{ link.name }}</a></li>
-                    {% endfor %}
+                    
+                    <li><a href="http://www3.lenovo.com/us/en/desktops-and-all-in-ones/thinkcentre/m-series-tiny/ThinkCentre-M910-Tiny/p/11TC1MT910Q">Lenovo Product Page</a></li>
+                    
+                    <li><a href="https://pcsupport.lenovo.com/us/en/products/DESKTOPS-AND-ALL-IN-ONES/THINKCENTRE-M-SERIES-DESKTOPS/THINKCENTRE-M910Q">Lenovo Product Support Page</a></li>
+                    
+                    <li><a href="https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m910q/manuals/UM920737">Lenovo Hardware Maintenance Manual</a></li>
+                    
+                    <li><a href="http://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre%20M910%20Tiny/M910%20Tiny.pdf">Lenovo Product Specifications Reference (PSREF)</a></li>
+                    
                 </ul>
             </div>
             
         </div>
-
-        <!-- Compatible Power Plug Row -->
-        <div class="row">            
-            <div class="col-md-12">
-                {% if compatible_power_plugs|length > 1 %}
-                <h3>Compatible Power Plugs - {% for compatible_power_plug in compatible_power_plugs %}{{ compatible_power_plug.name }}{% if not loop.last %}, {% endif %}{% endfor %}</h3>
-                {% else %}
-                <h3>Compatible Power Plug - {% for compatible_power_plug in compatible_power_plugs %}{{ compatible_power_plug.name }}{% endfor %}</h3>
-                {% endif %}
-            </div>
-            {% for compatible_power_plug in compatible_power_plugs %}
-            <div class="col-md-4">
-                <img class="img-responsive" src="{{ compatible_power_plug.image_href }}" alt="{{ compatible_power_plug.name }}">
-            </div>
-            {% endfor %}
-        </div>
-        
-        {% if video_ports %}
-        <!-- Video Output Ports Row -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>Available Video Output Ports</h3>
-            </div>
-            {% for port in video_ports %}
-            <div class="col-sm-4 col-xs-12"> 
-                <img class="img-responsive portfolio-item" src="{{ port.image_href }}" alt="{{ port.name }}">
-                <h4>{{ port.name }}</h4>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
 
         <!-- Compatible Accessories Row -->
         <div class="row">
@@ -169,16 +185,7 @@
                 <h3 class="page-header">Compatible Accessories</h3>
             </div>
 
-            {% for accessory in compatible_accessories %}
-            <div class="col-sm-4 col-xs-12">
-                <a href="{{ accessory.cdwg_href }}">
-                    <img class="img-responsive portfolio-item" src="{{ accessory.image_href }}" alt="{{ accessory.name }}">
-                </a>
-                <a href="{{ accessory.cdwg_href }}">
-                    <h4>{{ accessory.name }}</h4>
-                </a>
-            </div>
-            {% endfor %}
+            
             
         </div>
         <!-- /.row -->
@@ -214,19 +221,12 @@
                   <div class="col-md-4">
                     <div class="checkbox">
                     <label for="checkbox_0">
-                      <input type="checkbox" name="checkboxes_options" id="checkbox_0" class="checkboxes_options" value="{{ product_name }}">
-                      {{ product_name }}
+                      <input type="checkbox" name="checkboxes_options" id="checkbox_0" class="checkboxes_options" value="Lenovo ThinkCentre M910q Tiny (Desktop)">
+                      Lenovo ThinkCentre M910q Tiny (Desktop)
                     </label>
                     </div>
 
-                    {% for accessory in compatible_accessories %}
-                    <div class="checkbox">
-                    <label for="checkbox_t470s_ultradock">
-                      <input type="checkbox" name="checkboxes_options" id="checkbox_{{ loop.index }}" class="checkboxes_options" value="{{ accessory.name }}">
-                      {{ accessory.name }}
-                    </label>
-                    </div>
-                    {% endfor %}
+                    
                   </div>
                 </div>
 
@@ -251,7 +251,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="{{ cdwg_href }}">For KIS Use Only - CDW Cart Link</a>
+                    <a href="https://www.cdwg.com/shop/cart/carthandler.aspx?EDC=4642120&edc=1197180">For KIS Use Only - CDW Cart Link</a>
                 </div>
             </div>
             <div class="row">
@@ -279,7 +279,7 @@
             $('#button_submit').click(function(event) {
                 event.preventDefault();
                 var formtext = getForm();
-                window.location = "mailto:" + mailto_address + "?subject=Staff Hardware - Interested in {{ product_name }} and/or accessories&body=" + formtext;
+                window.location = "mailto:" + mailto_address + "?subject=Staff Hardware - Interested in Lenovo ThinkCentre M910q Tiny (Desktop) and/or accessories&body=" + formtext;
             });
 
             function getForm() {

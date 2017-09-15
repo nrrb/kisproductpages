@@ -1,0 +1,48 @@
+{
+    "template_type": "index",
+    "audience": "staff",
+    "output_filename": "index.html",
+    "description": "Listing of Lenovo hardware offerings for 2017-18 as recommended by KIS. This consists of the ThinkPad Yoga 370, ThinkPad T470s, and the ThinkCentre M910q Tiny (Desktop).",
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "page_title": "KIS - 2017-18 Hardware Offerings - Lenovo ThinkPad Yoga 370, T470s, M910q Tiny (Desktop)",
+	"products": [
+		{
+			"href": "M910q.html",
+			"image_href": "images/M910qTiny/desktop/700x300/",
+			"name": "ThinkCentre M910q Tiny (Desktop)",
+			"price": "$1022.00",
+			"short_description": "Tiny Desktop with High Performance",
+			"highlights": [
+				"Smaller than a phonebook",
+				"Intel i7-7700T 3.8 GHz CPU",
+				"8 GB RAM",
+				"512 GB NVMe SSD",
+				"Dual 2K monitor output"
+			]
+		},
+		{
+			"href": "T470s.html",
+			"image_href": "images/T470s/laptop/700x300/lenovo-laptop-thinkpad-t470s-black-gallery-11.jpg",
+			"name": "Lenovo ThinkPad T470s",
+			"price": "$1878.00",
+			"short_description": "Lowest-priced, High Performance Laptop",
+			"highlights": [
+				"RAM expandable to 24 GB",
+				"Uses square tip power cable",
+				"3 year Accidental Damage Protection (ADP) warranty (*)"
+			]
+		},
+		{
+			"href": "Yoga370.html",
+			"image_href": "images/Yoga370/laptop/700x300/",
+			"name": "Lenovo ThinkPad Yoga 370",
+			"price": "$1941.00",
+			"short_description": "Tablet/Laptop Convertible",
+			"highlights": [
+				"Touch and Pen Input",
+				"",
+				"3 year Accidental Damage Protection (ADP) warranty (*)"
+			]
+		}
+	]
+}
