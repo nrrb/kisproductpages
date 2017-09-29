@@ -420,6 +420,9 @@
 
             $('#button_submit').click(function(event) {
                 event.preventDefault();
+                gtag('event', 'interest_form_submit', {
+                    'event_label': 'Lenovo ThinkPad T470s'
+                });
                 var formtext = getForm();
                 window.location = "mailto:" + mailto_address + "?subject=Faculty Hardware - Interested in Lenovo ThinkPad T470s and/or accessories&body=" + formtext;
             });
