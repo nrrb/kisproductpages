@@ -239,6 +239,9 @@
 
             $('#button_submit').click(function(event) {
                 event.preventDefault();
+                gtag('event', 'interest_form_submit', {
+                    'event_label': '{{ product_name }}'
+                });
                 var formtext = getForm();
                 window.location = "mailto:" + mailto_address + "?subject=Faculty Hardware - Interested in {{ product_name }} and/or accessories&body=" + formtext;
             });

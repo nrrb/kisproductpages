@@ -371,6 +371,9 @@
 
             $('#button_submit').click(function(event) {
                 event.preventDefault();
+                gtag('event', 'interest_form_submit', {
+                    'event_label': 'Lenovo ThinkCentre M910t Desktop'
+                });
                 var formtext = getForm();
                 window.location = "mailto:" + mailto_address + "?subject=Faculty Hardware - Interested in Lenovo ThinkCentre M910t Desktop and/or accessories&body=" + formtext;
             });
