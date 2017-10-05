@@ -116,7 +116,7 @@
                 <h3>Additional Links</h3>
                 <ul>
                     {% for link in additional_links %}
-                    <li><a href="{{ link.href }}">{{ link.name }}</a></li>
+                    <li><a href="{{ link.href }}" target="_blank">{{ link.name }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
@@ -132,10 +132,10 @@
 
             {% for accessory in compatible_accessories %}
             <div class="col-sm-4 col-xs-12">
-                <a href="{{ accessory.cdwg_href }}">
+                <a href="{{ accessory.cdwg_href }}" target="_blank">
                     <img class="img-responsive portfolio-item" src="{{ accessory.image_href }}" alt="{{ accessory.name }}">
                 </a>
-                <a href="{{ accessory.cdwg_href }}">
+                <a href="{{ accessory.cdwg_href }}" target="_blank">
                     <h4>{{ accessory.name }}</h4>
                 </a>
             </div>
@@ -212,7 +212,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="{{ cdwg_href }}">For KIS Use Only - CDW Cart Link</a>
+                    <a href="{{ cdwg_href }}" target="_blank">For KIS Use Only - CDW Cart Link</a>
                 </div>
             </div>
             <div class="row">
