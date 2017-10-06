@@ -8,7 +8,7 @@
 	"products": [
 		{
 			"href": "M910q.html",
-			"image_href": "images/M910qTiny/desktop/700x300/",
+			"image_href": "images/M910qTiny/desktop/700x300/lenovo-thinkCentre-M910-M710-tiny-gallery1.jpg",
 			"name": "ThinkCentre M910q Tiny (Desktop)",
 			"price": "$1022.00",
 			"short_description": "Tiny Desktop with High Performance",
@@ -17,7 +17,8 @@
 				"Intel i7-7700T 3.8 GHz CPU",
 				"8 GB RAM",
 				"512 GB NVMe SSD",
-				"Dual 2K monitor output"
+				"Dual 2K monitor output capable",
+                "(NOTE: picture to right illustrates size; monitor and wireless keyboard/mouse not included)"
 			]
 		},
 		{
@@ -27,20 +28,20 @@
 			"price": "$1878.00",
 			"short_description": "Lowest-priced, High Performance Laptop",
 			"highlights": [
-				"RAM expandable to 24 GB",
+				"16 GB RAM expandable to 24 GB",
 				"Uses square tip power cable",
 				"3 year Accidental Damage Protection (ADP) warranty (*)"
 			]
 		},
 		{
 			"href": "Yoga370.html",
-			"image_href": "images/Yoga370/laptop/700x300/",
+			"image_href": "images/Yoga370/laptop/700x300/lenovo-thinkpad-yoga-370-lifestyle-gallery-02.jpg",
 			"name": "Lenovo ThinkPad Yoga 370",
 			"price": "$1941.00",
 			"short_description": "Tablet/Laptop Convertible",
 			"highlights": [
 				"Touch and Pen Input",
-				"",
+				"Most capable tablet/laptop made by Lenovo yet",
 				"3 year Accidental Damage Protection (ADP) warranty (*)"
 			]
 		}
