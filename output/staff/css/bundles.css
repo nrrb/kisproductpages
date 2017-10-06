@@ -1,0 +1,15 @@
+/*
+.bundle-quantity {
+    font-weight: bolder;
+    font-size: xx-large;
+}*/
+
+.bundle {
+    border: 1px solid grey;
+    margin: 2px;
+}
+
+.bundle-item {
+    border: 0.5px dashed grey;
+    margin: 1px;
+}

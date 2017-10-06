@@ -12,7 +12,7 @@ def render_template_to_file(json_source_file):
 	audience = data['audience']
 	template_type = data['template_type']
 
-	if template_type in ('laptop', 'desktop', 'index', 'consulting'):
+	if template_type in ('laptop', 'desktop', 'index', 'consulting', 'bundles'):
 	    template_file_path = 'templates/' + audience + '/' + template_type + '.jinja2'
 	else:
 	    logging.error('The data file says the template_type is "' + template_type + '" but that\'s invalid.')
@@ -38,5 +38,6 @@ if __name__=="__main__":
 								'data/products/staff/T470s.json',
 								'data/products/staff/Yoga370.json',
 								'data/products/staff/M910qTiny.json',
+                                'data/products/staff/bundles.json',
 								'data/products/staff/index.json'	):
 		render_template_to_file(json_source_file)

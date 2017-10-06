@@ -1,0 +1,122 @@
+{
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "date_updated": "October 6, 2017",
+    "template_type": "bundles",
+    "audience": "staff",
+    "output_filename": "bundles.html",
+    "description": "Commonly purchased bundles of laptops/desktops along with all accessories needed to make a fully functional system.",
+    "page_title": "KIS - Recommended PC Hardware Bundles",
+    "bundles": [
+        {
+            "name": "T470s Desktop Replacement with Dual 24\" Monitors",
+            "total_cost": "$2581.90",
+            "items": [
+                {
+                    "name": "Lenovo ThinkPad T470s",
+                    "type": "laptop",
+                    "notes": "This includes a $5.00 line item that prepares the system to be used in the Kellogg environment.",
+                    "image_href": "images/T470s/laptop/750x500/lenovo-laptop-thinkpad-t470s-black-gallery-11.jpg",
+                    "cdwg_href": "https://www.cdwg.com/shop/cart/carthandler.aspx?EDC=4642125&edc=1197180",
+                    "quantity": "1",
+                    "price_each": "$1878.00",
+                    "total_cost": "$1878.00"
+                },
+                {
+                    "name": "Lenovo ThinkPad Ultra Dock",
+                    "type": "dock",
+                    "image_href": "images/T470s/accessories/ThinkPad Ultra Dock - 500x400.jpg",
+                    "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Ultra-Dock-port-replicator/3118456.aspx?pfm=srh",
+                    "quantity": "1",
+                    "price_each": "$226.79",
+                    "total_cost": "$226.79"
+                },
+                {
+                    "name": "Lenovo Essential Wired Keyboard and Mouse",
+                    "type": "keyboard/mouse",
+                    "image_href": "images/peripherals/lenovo-essential-wired-keyboard-mouse.jpg",
+                    "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-Essential-Wired-Combo-keyboard-and-mouse-set-English-US/4350179.aspx?pfm=srh",
+                    "quantity": "1",
+                    "price_each": "$25.19",
+                    "total_cost": "$25.19"
+                },
+                {
+                    "name": "Lenovo ThinkVision 24\" LED Monitor",
+                    "type": "monitor",
+                    "image_href": "images/peripherals/lenovo-thinkvision-P24q-led-monitor.jpeg",
+                    "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkVision-P24q-LED-monitor-23.8in/4468844.aspx?enkwrd=4468844&pfm=srh",
+                    "quantity": "2",
+                    "price_each": "$225.96",
+                    "total_cost": "$451.92"
+                }
+            ]
+        },
+        {
+            "name": "Yoga 370 Desktop Replacement with Dual 24\" Monitors",
+            "total_cost": "$2653.30",
+            "items": [
+                {
+                    "name": "Lenovo ThinkPad Yoga 370",
+                    "type": "laptop",
+                    "notes": "This includes a $5.00 line item that prepares the system to be used in the Kellogg environment.",
+                    "image_href": "images/Yoga370/laptop/750x500/lenovo-thinkpad-yoga-370-lifestyle-gallery-02.jpg",
+                    "cdwg_href": "https://www.cdwg.com/shop/cart/carthandler.aspx?EDC=4642122&edc=1197180",
+                    "quantity": "1",
+                    "price_each": "$1941.00",
+                    "total_cost": "$1941.00"
+                },
+                {
+                    "name": "Lenovo ThinkPad Thunderbolt 3 Dock",
+                    "type": "dock",
+                    "image_href": "images/Yoga370/accessories/Thunderbolt 3 Dock - 500x400.jpg",
+                    "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkPad-Thunderbolt-3-Dock-port-replicator/4452433.aspx?pfm=srh",
+                    "quantity": "1",
+                    "price_each": "$235.19",
+                    "total_cost": "$235.19"
+                },
+                {
+                    "name": "Lenovo Essential Wired Keyboard and Mouse",
+                    "type": "keyboard/mouse",
+                    "image_href": "images/peripherals/lenovo-essential-wired-keyboard-mouse.jpg",
+                    "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-Essential-Wired-Combo-keyboard-and-mouse-set-English-US/4350179.aspx?pfm=srh",
+                    "quantity": "1",
+                    "price_each": "$25.19",
+                    "total_cost": "$25.19"
+                },
+                {
+                    "name": "Lenovo ThinkVision 24\" LED Monitor",
+                    "type": "monitor",
+                    "image_href": "images/peripherals/lenovo-thinkvision-P24q-led-monitor.jpeg",
+                    "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkVision-P24q-LED-monitor-23.8in/4468844.aspx?enkwrd=4468844&pfm=srh",
+                    "quantity": "2",
+                    "price_each": "$225.96",
+                    "total_cost": "$451.92"
+                }
+            ]
+        },
+        {
+            "name": "M910q Tiny Desktop with Dual 24\" Monitors",
+            "total_cost": "$1473.92",
+            "items": [
+                {
+                    "name": "Lenovo ThinkCentre M910q Tiny (Desktop)",
+                    "type": "desktop",
+                    "notes": "This includes a $5.00 line item that prepares the system to be used in the Kellogg environment. This also comes with its own keyboard and mouse.",
+                    "image_href": "images/M910qTiny/desktop/750x500/lenovo-thinkCentre-M910-M710-tiny-gallery3.jpg",
+                    "cdwg_href": "https://www.cdwg.com/shop/cart/carthandler.aspx?EDC=4642120&edc=1197180",
+                    "quantity": "1",
+                    "price_each": "$1022.00",
+                    "total_cost": "$1022.00"
+                },
+                {
+                    "name": "Lenovo ThinkVision 24\" LED Monitor",
+                    "type": "monitor",
+                    "image_href": "images/peripherals/lenovo-thinkvision-P24q-led-monitor.jpeg",
+                    "cdwg_href": "https://www.cdwg.com/shop/products/Lenovo-ThinkVision-P24q-LED-monitor-23.8in/4468844.aspx?enkwrd=4468844&pfm=srh",
+                    "quantity": "2",
+                    "price_each": "$225.96",
+                    "total_cost": "$451.92"
+                }
+            ]
+        }
+    ]
+}
