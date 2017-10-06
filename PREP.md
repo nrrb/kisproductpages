@@ -1,5 +1,9 @@
 # In OS X Terminal, image resizing and conversion can be done with the "sips" command:
 
+# Get image dimensions
+
+sips -g pixelWidth -g pixelHeight image.jpg
+
 # Convert an image from PNG to JPEG:
 
 sips -s format jpeg image.png --out image.jpg
