@@ -107,11 +107,11 @@
     ],
     "video_ports": [
         {
-            "image_href": "images/Yoga370/accessories/",
+            "image_href": "images/Yoga370/accessories/Yoga370-HDMIPort.png",
             "name": "HDMI"
         },
         {
-            "image_href": "images/Yoga370/accessories/",
+            "image_href": "images/Yoga370/accessories/Yoga370-Thunderbolt3Port.png",
             "name": "Thunderbolt 3"
         }
     ],
