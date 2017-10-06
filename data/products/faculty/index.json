@@ -1,9 +1,10 @@
 {
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "date_updated": "October 6, 2017",
     "template_type": "index",
     "audience": "faculty",
     "output_filename": "index.html",
     "description": "Listing of Lenovo hardware offerings for 2017-18 as recommended by KIS. This consists of the ThinkPad X1 Yoga 2nd Gen, ThinkPad X1 Carbon 5th Gen, ThinkPad T470s, and the ThinkCentre M910t Desktop.",
-    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
     "page_title": "KIS - 2017-18 Hardware Offerings - Lenovo X1 Yoga 2nd Gen, X1 Carbon 5th Gen, T470s, M910t Desktop",
 	"products": [
 		{

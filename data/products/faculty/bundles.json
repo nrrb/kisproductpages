@@ -1,0 +1,24 @@
+{
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "date_updated": "October 6, 2017",
+    "template_type": "bundles",
+    "audience": "staff",
+    "output_filename": "bundles.html",
+    "description": "Commonly purchased bundles of laptops/desktops along with all accessories needed to make a fully functional system.",
+    "page_title": "KIS - Recommended PC Hardware Bundles",
+    "bundles": [
+        {
+            "name": "",
+            "items": [
+                {
+                    "product_name": "",
+                    "product_type": "",
+                    "cdwg_url": "",
+                    "quantity": "",
+                    "price_each": "",
+                    "total_cost": ""
+                }
+            ]
+        },
+    ]
+}

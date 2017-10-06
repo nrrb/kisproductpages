@@ -1,9 +1,10 @@
 {
+    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
+    "date_updated": "October 6, 2017",
     "template_type": "index",
     "audience": "staff",
     "output_filename": "index.html",
     "description": "Listing of Lenovo hardware offerings for 2017-18 as recommended by KIS. This consists of the ThinkPad Yoga 370, ThinkPad T470s, and the ThinkCentre M910q Tiny (Desktop).",
-    "author_email": "nicholas.bennett@kellogg.northwestern.edu",
     "page_title": "KIS - 2017-18 Hardware Offerings - Lenovo ThinkPad Yoga 370, T470s, M910q Tiny (Desktop)",
 	"products": [
 		{
