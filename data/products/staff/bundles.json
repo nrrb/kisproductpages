@@ -9,6 +9,7 @@
     "bundles": [
         {
             "name": "T470s Desktop Replacement with Dual 24\" Monitors",
+            "anchor": "t470s-desktop",
             "total_cost": "$2581.90",
             "items": [
                 {
@@ -52,6 +53,7 @@
         },
         {
             "name": "Yoga 370 Desktop Replacement with Dual 24\" Monitors",
+            "anchor": "yoga370-desktop",
             "total_cost": "$2653.30",
             "items": [
                 {
@@ -95,6 +97,7 @@
         },
         {
             "name": "M910q Tiny Desktop with Dual 24\" Monitors",
+            "anchor": "m910q-desktop",
             "total_cost": "$1473.92",
             "items": [
                 {
